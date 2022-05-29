@@ -1,0 +1,26 @@
+  
+  .center {
+    text-align: center;
+  }
+
+  .column {
+    float: left;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  name{
+    color: red;
+  }
+  id{
+    color: green;
+    
+  }
+  tut{
+    color: blue;
+
+  }
